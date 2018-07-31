@@ -307,7 +307,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #777777;
+		color: #84dbbd;
 	}
 
 	blockquote {
@@ -2323,6 +2323,7 @@ input, select, textarea {
 		text-decoration: none;
 		border-bottom: none;
 		position: relative;
+		margin-top:15px;
 	}
 
 		.icon2:before {
@@ -3661,7 +3662,7 @@ input, select, textarea {
 		}
 
 		#banner h1, #banner h2, #banner h3, #banner h4, #banner h5, #banner h6 {
-			color: #84dbbd;
+			color: #49ca9d;
 		}
 
 		#banner blockquote {
@@ -3754,7 +3755,7 @@ input, select, textarea {
 			border: 0;
 			border-radius: 4px 4px 0 0;
 			bottom: -3em;
-			color: #8e8e8e;
+			color: #333333;
 			display: block;
 			height: 3em;
 			left: 50%;
@@ -4212,3 +4213,5 @@ input, select, textarea {
 				}
 
 		}
+		
+		
