@@ -1,6 +1,7 @@
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,500|Oswald:400");
 
+
 /*
 	Formula by Pixelarity
 	pixelarity.com | hello@pixelarity.com
@@ -2315,6 +2316,29 @@ input, select, textarea {
 
 		}
 
+
+/* Icon2 */
+
+	.icon2 {
+		text-decoration: none;
+		border-bottom: none;
+		position: relative;
+	}
+
+		.icon2:before {
+			-moz-osx-font-smoothing: grayscale;
+			-webkit-font-smoothing: antialiased;
+			font-family: FontAwesome;
+			font-style: normal;
+			font-weight: normal;
+			text-transform: none !important;
+		}
+
+		.icon2 > .label {
+			display: none;
+		}
+
+
 /* Image */
 
 	.image {
@@ -3337,7 +3361,7 @@ input, select, textarea {
 			border-radius: 100%;
 		}
 
-			#abc .logo .icon:before {
+			#abc .logo .icon2:before {
 				font-size: 2rem;
 			}
 
@@ -3485,7 +3509,7 @@ input, select, textarea {
 				line-height: 4.75rem;
 			}
 
-				#abc .logo .icon:before {
+				#abc .logo .icon2:before {
 					font-size: 1.75rem;
 				}
 
@@ -3637,7 +3661,7 @@ input, select, textarea {
 		}
 
 		#banner h1, #banner h2, #banner h3, #banner h4, #banner h5, #banner h6 {
-			color: #ffffff;
+			color: #84dbbd;
 		}
 
 		#banner blockquote {
@@ -3986,7 +4010,7 @@ input, select, textarea {
 			border-radius: 100%;
 		}
 
-			#abc .logo .icon:before {
+			#abc .logo .icon2:before {
 				font-size: 2rem;
 			}
 
@@ -4134,7 +4158,7 @@ input, select, textarea {
 				line-height: 4.75rem;
 			}
 
-				#abc .logo .icon:before {
+				#abc .logo .icon2:before {
 					font-size: 1.75rem;
 				}
 
