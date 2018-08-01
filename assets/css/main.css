@@ -3877,6 +3877,22 @@ input, select, textarea {
 			bottom: -5em;
 		}
 
+	#bg-vid1 {
+		z-index: 0;
+	}
+	
+	#bg-vid2 {
+		z-index: 1;
+	}
+	#bg-vid3 {
+		z-index: 1;
+	}
+
+    .hidden {
+        visibility: hidden;
+    }
+
+
 /* CTA */
 
 	@media screen and (max-width: 736px) {
