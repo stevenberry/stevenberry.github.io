@@ -3069,7 +3069,7 @@ input, select, textarea {
 		-ms-transition: border-bottom-color 0.2s ease, color 0.2s ease, background-color 0.2s ease;
 		transition: border-bottom-color 0.2s ease, color 0.2s ease, background-color 0.2s ease;
 		border-bottom: solid 2px #eaeaea;
-		background: #ffffff;
+		background: #111111;
 		height: 3.5em;
 		left: 0;
 		line-height: 3.5em;
