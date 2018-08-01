@@ -4,11 +4,9 @@
         var londonbtn = document.getElementById("londonbtn")
         var video1 = document.getElementById('bg-vid1');
         var video2 = document.getElementById('bg-vid2');
-        var video3 = document.getElementById('bg-vid3');
 
         video1.innerHTML = '<source id="bg-vid1-src" src="images/bg1.mp4" type="video/mp4">'
         video2.innerHTML = '<source id="bg-vid2-src" src="images/bg2.mp4" type="video/mp4">'
-        video3.innerHTML = '<source id="bg-vid3-src" src="images/bg3.mp4" type="video/mp4">'
 
         video1.onended = () => {
             video2.play()
@@ -22,5 +20,9 @@
             video2.classList.toggle('hidden')
         };
     }
+            var video3 = document.getElementById('bg-vid3');
+            video3.innerHTML = '<source id="bg-vid3-src" src="images/bg3.mp4" type="video/mp4">'
+
+
 
 })();

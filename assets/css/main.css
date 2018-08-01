@@ -4098,11 +4098,11 @@ input, select, textarea {
 				}
 
 					#abc nav ul li a:hover {
-						background-color: rgba(255, 255, 255, 0.075);
+						background-color: rgba(255, 255, 255, 0);
 					}
 
 					#abc nav ul li a:active {
-						background-color: rgba(255, 255, 255, 0.175);
+						background-color: rgba(255, 255, 255, 0);
 					}
 
 		#abc nav.use-middle:after {
