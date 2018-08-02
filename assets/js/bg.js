@@ -21,11 +21,12 @@
         };
         } else {
         var background = document.getElementById('bg-mobile');
-        background.innerHTML = '<img id="bg-mobile-pic" class="fullscreen-bg-pic" src="https://cdn.elken.io/site/img/bg/bg-mobile.jpg">'
+        background.innerHTML = '<img id="bg-mobile-pic" class="fullscreen-bg-pic" src="https://cdn.elken.io/site/bg/bg-mobile.jpg">'
+       
     }    
-    
-            var video3 = document.getElementById('bg-vid3');
+                 var video3 = document.getElementById('bg-vid3');
             video3.innerHTML = '<source id="bg-vid3-src" src="https://cdn.elken.io/questionconsulting/img/bg/bg3.mp4">'
+
 
 
 
