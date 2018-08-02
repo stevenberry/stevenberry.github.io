@@ -3782,7 +3782,7 @@ input, select, textarea {
 			position: absolute;
 			bottom: 50%;
 			right: 50%;
-			width: auto;
+			/* width: auto; */
 			height: auto;
 			min-width: 100%;
 			min-height: 100%;
