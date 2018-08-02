@@ -3664,7 +3664,7 @@ input, select, textarea {
 		}
 
 		#banner h1, #banner h2, #banner h3, #banner h4, #banner h5, #banner h6 {
-			color: #49ca9d;
+			color: #ffffff;
 		}
 
 		#banner blockquote {
@@ -3815,7 +3815,7 @@ input, select, textarea {
 		@media screen and (max-width: 1280px) {
 
 			#banner video {
-				display: none;
+			/*	display: none; */
 			}
 
 		}
@@ -3878,6 +3878,25 @@ input, select, textarea {
 		body.is-preload #banner .more {
 			bottom: -5em;
 		}
+
+	
+
+	.fullscreen-bg-video { 
+		position: absolute; 
+		/*top: 0; 
+		left: 0;*/
+		width: 100%;	
+		object-fit: cover;
+	}
+
+
+	.fullscreen-bg-pic { 
+		position: absolute; 
+		top: 0; 
+		left: 0;
+		height: 100%;
+	}
+
 
 	#bg-vid1 {
 		z-index: 0;
@@ -4257,5 +4276,9 @@ input, select, textarea {
 
 .greytext {
     color: #333333 !important;
+
+}
+.whitetext {
+    color: #ffffff !important;
 
 }
