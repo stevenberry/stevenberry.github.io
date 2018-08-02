@@ -25,7 +25,7 @@
     }    
     
             var video3 = document.getElementById('bg-vid3');
-            video3.innerHTML = '<source id="bg-vid3-src" src="images/bg3.mp4" type="video/mp4">'
+            video3.innerHTML = '<source id="bg-vid3-src" src="https://cdn.elken.io/questionconsulting/bg/bg3.mp4">'
 
 
 
