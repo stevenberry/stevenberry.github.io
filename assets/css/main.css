@@ -3893,6 +3893,7 @@ input, select, textarea {
 		left: 0;*/
 		width: 100%;	
 		object-fit: cover;
+		overflow: hidden;
 		/*-webkit-filter: opacity(.6); *//* Safari 6.0 - 9.0 */
 		/*filter: opacity(.6);*/
 	}
